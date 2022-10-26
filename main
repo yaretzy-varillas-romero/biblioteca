@@ -1,0 +1,12 @@
+import { autor } from "./autor";
+import { copia } from "./copia";
+import { lector } from "./lector";
+import { libro } from "./libro";
+const juan=new autor("juan","mexico",20_10_2006)
+console.log(juan)
+
+const lectura=new libro("joana","españa",30_06_2000,"antes de diciembre","romantica","montena-inf",2021)
+console.log(lectura)
+
+const lupe=new lector("lupe",768789,43245,"10 agosto",756779)
+console.log(lupe)
